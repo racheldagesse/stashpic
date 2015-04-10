@@ -1,0 +1,74 @@
+.content {
+	margin-top: 50px;
+}
+
+.undecorated-link > img {
+    border: 5px solid red;
+    
+}
+
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+.browsehappy.jumbotron.hide,
+body.ng-cloak
+{
+	display: block;
+}
+
+.navbar-brand {
+    font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    color: white;
+    
+}
+
+.navbar-brand:hover {
+    color: #2DE319;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.first > a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first > a:hover {
+    background-color: #1FA14E;
+
+}
+
+
+.second > a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.second > a:hover {
+    background-color: #84298C;
+}
+
+#derp {
+    font-family: 'Raleway', sans-serif;
+}
+
+#yep {
+    font-family: 'Raleway', sans-serif;
+}
+    
+
+
+
