@@ -39,7 +39,7 @@
 	{% for cssFile in cssFiles %}
 		<link rel="stylesheet" href="{{cssFile}}">
 	{% endfor %}
-
+        		
 	<!-- HTML5 Shim -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -47,7 +47,7 @@
 </head>
 
 <body class="ng-cloak">
-	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></header>
+	<header data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse shadow"></header>
 	<section class="content">
 		<section class="container">
 			{% block content %}{% endblock %}
@@ -77,6 +77,32 @@
 		<p><a href="http://browsehappy.com" class="btn btn-primary btn-lg" role="button">Yes, upgrade my browser!</a></p>
 	</section>
 	<![endif]-->
+     <!--Starts Footer -->
+        <footer class="end">
+        <div class="container">    
+        <div class="cheah">
+          
+          <div class="col-md-6">
+              <h1 class="first">Like us on:</h1>
+              <br>
+            <ul class="footer-list-social">
+            <a href="facebook.com" target="_blank"><li><img src="modules/core/img/brand/fb.png" alt="fb"></li></a>
+            <a href="twitter.com" target="_blank"><li><img src="modules/core/img/brand/twitter.png" alt="twitter"></li></a>
+
+          </ul>
+              
+        </div><!--closes social col-md-4 -->
+            
+        <div class="col-md-6">
+            <a href="/#!/" class="stash"></a>
+        
+            </div><!--Closes logo col-md-4 -->
+            </div><!--Closes row-->
+            <hr>
+            <p id="copyright">&copy; 2015 Stash Yo Self.</p>  
+          </div><!-- Closes container-->          
+            </footer>
+
 </body>
 
 </html>

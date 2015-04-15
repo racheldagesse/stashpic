@@ -45,6 +45,8 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+                'public/lib/captioneffects/css/component.css',
+                'public/lib/captioneffects/css/default.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -52,7 +54,9 @@ module.exports = {
 				'public/lib/angular-animate/angular-animate.js',
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+                'public/lib/captioneffects/modernizr.custom.js',
+                'public/lib/captioneffects/toucheffects.js'
 			]
 		},
 		css: [
