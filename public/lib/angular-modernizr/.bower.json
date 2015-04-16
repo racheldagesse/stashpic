@@ -1,0 +1,26 @@
+{
+  "author": "will Farrell",
+  "name": "angular-modernizr",
+  "description": "Collection of AngularJS fallbacks for less modern browsers.",
+  "version": "0.1.1",
+  "homepage": "http://github.com/willfarrell/angular-modernizr",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willfarrell/angular-modernizr.git"
+  },
+  "dependencies": {
+    "modernizr": null,
+    "json3": null,
+    "angular": null
+  },
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "ded02aadc45ac0e69f01f1d605ad46048e722c2b"
+  },
+  "_source": "git://github.com/willfarrell/angular-modernizr.git",
+  "_target": "~0.1.1",
+  "_originalSource": "angular-modernizr",
+  "_direct": true
+}
